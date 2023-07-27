@@ -31,6 +31,9 @@ form.addEventListener("submit", (event) => {
      */
     result.innerHTML =
       "Division not performed. Invalid number provided. Try again";
+    /**
+     * Error thrown in console if invalid numbers are entered
+     */
     throw new Error(
       "Division not performed. Invalid number provided. Try again"
     );
